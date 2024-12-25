@@ -39,7 +39,7 @@ const HomePage = () => {
                         {/* New Update Banner */}
                         <button
                             onClick={() => navigate('/latest-update')}
-                            className="inline-flex items-center py-1 px-4 m-8 text-sm bg-indigo-900/60 backdrop-blur-sm rounded-full hover:bg-indigo-800 transition-all duration-300 border border-indigo-700"
+                            className="inline-flex items-center py-1 px-4 mb-8 sm:mt-8 md:mt-6 text-sm bg-indigo-900/60 backdrop-blur-sm rounded-full hover:bg-indigo-800 transition-all duration-300 border border-indigo-700"
                         >
                             <span className="bg-indigo-600 rounded-full text-white px-3 py-1 text-xs mr-3">New</span>
                             <span className="text-indigo-100">Stable Diffusion 2.0 integration live!</span>
