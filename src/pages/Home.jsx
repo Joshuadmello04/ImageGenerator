@@ -82,7 +82,7 @@ const HomePage = () => {
                         {/* Action Buttons */}
                         <div className="flex flex-wrap gap-4 justify-center">
                             <button
-                                onClick={() => navigate('/create')}
+                                onClick={() => navigate('/post')}
                                 className="inline-flex items-center px-8 py-4 bg-gradient-to-r from-purple-500 to-indigo-600 text-white rounded-xl hover:from-purple-600 hover:to-indigo-700 transition-all duration-300 shadow-lg shadow-purple-500/25"
                             >
                                 Start Creating
@@ -117,8 +117,8 @@ const HomePage = () => {
 
             {/* Gallery Section */}
             <section ref={galleryRef} className="text-white py-16">
-                <div className="container mx-auto px-4">
-                    <h2 className="text-3xl font-bold mb-8">Explore Our AI Gallery</h2>
+                <div className="container mx-auto px-4 items-center">
+                    <h2 className="text-3xl font-bold mb-8 text-center">Explore Our AI Gallery</h2>
                     <Gallery />
                 </div>
             </section>
